@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors learning</title>
+    <style>
+
+        p {
+            color: blue;
+        }
+
+        p:hover {
+            color: red;
+        }
+
+        div > p:nth-child(2) { 
+            color: violet;
+        }
+
+        div > p::first-letter {
+            color: lime;
+        }
+
+        div > p::before {
+            content: "->>";
+        }
+
+        div > p::after {
+            content : "❤";
+        }
+
+
+        ::placeholder {
+            color: tomato;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p>Hello welcome to this file</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at quibusdam omnis ea! Accusantium consectetur enim voluptas aperiam rem quos?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, ullam.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <input type="text" name="name" id="name" placeholder="name">
+</body>
+</html>
