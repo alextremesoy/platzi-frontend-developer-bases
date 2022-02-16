@@ -91,3 +91,24 @@ Listas:
 		- ul -> un order list 
 		- li -> list item
 		- ol -> order list
+
+
+--------------------------------------------
+
+TIPOS DE SELECTORES
+
+BASICOS
+
+- tipo -> div { }
+- clase -> .elemento { }
+- id -> #id-element { }
+- attribute -> a[href="https://google.com"] {} -> [ aqui va el atributo ]
+- universal -> * { } -> modifica todo es universal
+
+
+COMBINADORES 
+
+- Descendientes -> div p -> p dentro de div
+- hijo directo -> div > p -> p hijo de div
+- elemento adyacente -> div + p
+- General de hermanos -> div ~ p
