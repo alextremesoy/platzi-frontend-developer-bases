@@ -129,3 +129,27 @@ PSEUDO ELEMENTOS
 ::before
 ::first-letter
 ::placeholder
+
+---------------------------------------------------
+
+
+C -> CASCADING
+S -> STYLING
+S -> SHEET
+
+
+cascada 
+
+el orden en que escribimos el codigo importa.
+
+sobre escribir los estilos que tenemos ya que 
+muchas veces volvemos a usar esas propiedades.
+
+
+ESPECIFICIDAD
+!important -> mas alto
+estilos en linea -> attribute style
+#id -> 
+clases attributes, PSEUDOCLASES ->
+elements and pseudoelements ->
+universal selectors ->
