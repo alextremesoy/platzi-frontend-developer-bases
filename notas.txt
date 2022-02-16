@@ -1,0 +1,93 @@
+CLASS 1 - 15 Feb 2022
+----------------------------------------------
+
+HTML -> Hyper Text Markup Lenguage
+CSS -> Cascade style sheet.
+
+
+-------------------- 
+
+CLASS 2 - 15-Feb-2022
+
+Sintaxis de renderizado -> motor de renderizado -> forma que ellos entiendan
+
+NAVEG -> MOTOR 
+Chrome -> Blink
+Edge -> EdgeHTML
+Safari -> webkit
+
+
+PASOS QUE HACE EL NAVEGADOR Y EL MOTOR DE RENDER.
+
+1- Pasa los archivos a objetos -> DOM
+					-> Document object model.
+
+2- Calcula cada uno de los estilos que va en cada uno de los nodos.
+	Inserta los estilos dentro del arbo de objetos.
+
+3- Calcula las dimensiones de los nodos
+
+4- Pintar las cajas 
+
+5- Toma una captura o render y lo pinta finalmente en la pantalla
+
+
+----------------------------------
+
+CLASS 3 - ANATOMY OF THE PAGE 16-FEB 2022
+
+<h1> Platzi </h1> 
+
+Etiqueta de apertura -> contenido -> etiqueta de cierre.
+
+Attribute : Valor -> class="title"
+
+-----------------------------------------------------
+
+
+HTML Semantico
+
+- Ayuda a tu sitio a ser mas accesible
+- Mejora tu posicionamiento
+- Codigo mas claro.
+- Tenemos que poner las etiquetas correspondientes.
+- Aprender a utilizar las etiquetas adecuadas.
+
+
+---------------------------------------------------
+
+
+ETIQUETAS MAS UTILIZADAS
+
+layout -> 
+			- nav
+			- header
+			- section
+			- article
+			- aside 
+			- footer
+
+enlaces -> 
+			- ancor
+
+textos -> 
+			- h1 to h6 -> importance order
+			- p -> paragraph
+			- span -> no visual difference 
+
+Media -> 
+		- img
+		- svg 
+		- iframe
+		- video
+
+Formularios ->
+		- Form
+		- input
+		- label
+		- button
+
+Listas:
+		- ul -> un order list 
+		- li -> list item
+		- ol -> order list
